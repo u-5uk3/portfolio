@@ -4,11 +4,11 @@
     "kind": "自主制作",
     "title": "Yusuke Yamada - Prtfolio",
     "note": "当該ポートフォリオ、Vue.jsにて制作。",
-    "icon": "./portfolio/static/img/works/icon/portfolio.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/portfolio.jpg",
     "role": ["デザイン", "フロント実装"],
     "urlTitle": "Yusuke Yamada - Prtfolio",
     "url": "/",
-    "picture": "../portfolio/static/img/works/pic/portfolio.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/portfolio.jpg",
     "txt": "ご覧いただいているポートフォリオです、2019/05/09より学習を始めたVue.jsにて制作しています。"
   },
   {
@@ -16,11 +16,11 @@
     "kind": "ウォンツ在籍時 業務制作",
     "title": "墨絵、陶墨画アーティスト<br>西元祐貴 公式Web",
     "note": "コーディング、多言語対応実装など。",
-    "icon": "./portfolio/static/img/works/icon/yu-kinishimoto.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/yu-kinishimoto.jpg",
     "role": ["フロント実装"],
     "urlTitle": "墨絵、陶墨画アーティスト 西元祐貴 公式Web",
     "url": "http://yuki-nishimoto.com/jp/",
-    "picture": "../portfolio/static/img/works/pic/yu-kinishimoto.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/yu-kinishimoto.jpg",
     "txt": "コーディングを担当しました、多言語対応に関してはjQueryでURLの切り替えができるよう調整を行っています。<br>その他、トップページの表示領域に関して調整を行っています。"
   },
   {
@@ -28,11 +28,11 @@
     "kind": "ウォンツ在籍時 業務制作",
     "title": "Yu-ki Nishimoto WORKS<br>西元祐貴ECサイト",
     "note": "MakeShop CMSを使用、ページ間での動的対応など。",
-    "icon": "./portfolio/static/img/works/icon/yu-kiworks.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/yu-kiworks.jpg",
     "role": ["フロント実装", "一部デザイン"],
     "urlTitle": "Yu-ki Nishimoto WORKS - 西元祐貴ECサイト",
     "url": "https://yu-ki.work/",
-    "picture": "../portfolio/static/img/works/pic/yu-kiworks.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/yu-kiworks.jpg",
     "txt": "MakeShop CMSを使用し制作しています。<br>商品を更新した際にトップページの更新が不要になるよう、jQueryでプログラムを記述しています。<br>その他、全般的に動的箇所の実装を行っています。"
   },
   {
@@ -40,11 +40,11 @@
     "kind": "ウォンツ在籍時 業務制作",
     "title": "西元 祐貴×テラバトル2<br>コラボレーション特設ページ",
     "note": "コーディング、アニメーションデザイン・実装など。",
-    "icon": "./portfolio/static/img/works/icon/terrabattle2.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/terrabattle2.jpg",
     "role": ["フロント実装", "アニメーションデザイン", "一部ライティング"],
     "urlTitle": "西元 祐貴×テラバトル2 コラボレーション 特設ページ",
     "url": "http://sp.yu-ki.work/terrabattle2/",
-    "picture": "../portfolio/static/img/works/pic/terrabattle2.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/terrabattle2.jpg",
     "txt": "スマホアプリとのコラボレーションを記念したキャンペーンページです。<br>コーディングの際にアニメーションデザインを行い実装しています。<br>また、インタビュー記事制作時にライティングを一部担当しております。"
   },
   {
@@ -52,11 +52,11 @@
     "kind": "ウォンツ在籍時 業務制作",
     "title": "西元祐貴EC 2周年記念<br>プレゼントキャンペーン",
     "note": "コーディング、アニメーションデザイン・実装など。",
-    "icon": "./portfolio/static/img/works/icon/anniversary.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/anniversary.jpg",
     "role": ["フロント実装", "アニメーションデザイン"],
     "urlTitle": "西元祐貴オンラインストア2周年記念 プレゼントキャンペーン",
     "url": "http://sp.yu-ki.work/anniversary/",
-    "picture": "../portfolio/static/img/works/pic/anniversary.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/anniversary.jpg",
     "txt": "ECサイトの2周年記念のキャンペーンページです。<br>コーディングの際にアニメーションデザインを行い実装しています。"
   },
   {
@@ -64,11 +64,11 @@
     "kind": "ウォンツ在籍時 業務制作",
     "title": "イラストレーター たけいみき<br>公式サイト",
     "note": "リニューアル対応。",
-    "icon": "./portfolio/static/img/works/icon/miki-takei.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/miki-takei.jpg",
     "role": ["フロント実装"],
     "urlTitle": "イラストレーター たけいみき公式サイト",
     "url": "http://www.miki-takei.com/",
-    "picture": "../portfolio/static/img/works/pic/miki-takei.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/miki-takei.jpg",
     "txt": "既存サイトのリニューアル対応を行いました、ページの追加制作や調整を行っています。"
   },
   {
@@ -76,11 +76,11 @@
     "kind": "ウォンツ在籍時 業務制作",
     "title": "Light the Light<br>たけいみき ECサイト",
     "note": "MakeShop CMSを使用、ページ内での動的対応など。",
-    "icon": "./portfolio/static/img/works/icon/light-the-light.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/light-the-light.jpg",
     "role": ["フロント実装"],
     "urlTitle": "Light the Light たけいみき ECサイト",
     "url": "http://light-the-light.com/",
-    "picture": "../portfolio/static/img/works/pic/light-the-light.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/light-the-light.jpg",
     "txt": "MakeShop CMSを使用し制作しています。<br>PC版スライダー表示時に背景デザインの調整が必要だったため、プラグインカスタマイズを行っています。"
   },
   {
@@ -88,11 +88,11 @@
     "kind": "ウォンツ在籍時 業務制作",
     "title": "Honda Cars 若狭",
     "note": "スマホリニューアル対応、一部デザイン。",
-    "icon": "./portfolio/static/img/works/icon/hondacars.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/hondacars.jpg",
     "role": ["フロント実装", "一部デザイン"],
     "urlTitle": "Honda Cars 若狭",
     "url": "http://www.hondacars-wakasa.co.jp/",
-    "picture": "../portfolio/static/img/works/pic/hondacars.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/hondacars.jpg",
     "txt": "スマホ版サイトの追加制作を対応しました、既存コードの調整と一部ページのデザインを行っています。"
   },
   {
@@ -100,11 +100,11 @@
     "kind": "システムグラフィ在籍時 業務制作",
     "title": "株式会社オーイング",
     "note": "独自CMS使用、デザイン・コーディング対応など。",
-    "icon": "./portfolio/static/img/works/icon/o-ing.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/o-ing.jpg",
     "role": ["デザイン", "フロント実装"],
     "urlTitle": "株式会社オーイング",
     "url": "https://www.o-ing.net/",
-    "picture": "../portfolio/static/img/works/pic/o-ing.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/o-ing.jpg",
     "txt": "独自CMSを使用し制作しました、デザイン制作とコーディングを行っています。"
   },
   {
@@ -112,11 +112,11 @@
     "kind": "システムグラフィ在籍時 業務制作",
     "title": "株式会社 高野組",
     "note": "独自CMS使用、デザイン・コーディング対応など。",
-    "icon": "./portfolio/static/img/works/icon/takanogumi.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/takanogumi.jpg",
     "role": ["デザイン", "フロント実装"],
     "urlTitle": "株式会社 高野組",
     "url": "http://www.takanogumi.co.jp/",
-    "picture": "../portfolio/static/img/works/pic/takanogumi.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/takanogumi.jpg",
     "txt": "独自CMSを使用し制作しました、デザイン制作とコーディングを行っています。"
   },
   {
@@ -124,11 +124,11 @@
     "kind": "システムグラフィ在籍時 業務制作",
     "title": "福井循環器病院",
     "note": "独自CMS使用、デザイン・コーディング対応など。",
-    "icon": "./portfolio/static/img/works/icon/fcvc.jpg",
+    "icon": "https://u-5uk3.github.io/portfolio/static/img/works/icon/fcvc.jpg",
     "role": ["デザイン", "フロント実装"],
     "urlTitle": "医療法人 福井心臓血圧センター / 福井循環器病院",
     "url": "http://www.fcvc.or.jp/",
-    "picture": "../portfolio/static/img/works/pic/fcvc.jpg",
+    "picture": "https://u-5uk3.github.io/portfolio/static/img/works/pic/fcvc.jpg",
     "txt": "独自CMSを使用し制作しました、デザイン制作とコーディングを行っています。"
   }
 ]
