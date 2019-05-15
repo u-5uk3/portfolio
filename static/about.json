@@ -1,0 +1,98 @@
+{
+  "person": [
+    {
+      "title": "名前",
+      "txt": "山田 祐介"
+    },
+    {
+      "title": "生年月日",
+      "txt": "1989 / 03 / 22"
+    },
+    {
+      "title": "メール",
+      "txt": "yusuke09068159485@gmail.com"
+    }
+  ],
+  "career": {
+    "title": "経歴",
+    "detail": [
+      {
+        "company": "株式会社システムグラフィ",
+        "date": "2013/04 ～ 2016/03",
+        "txt": "独自CMSを用いたコーポレートサイトやECサイトの受注制作・デザインに従事。"
+      },
+      {
+        "company": "株式会社ウォンツ",
+        "date": "2016/04 ～ 2019/04",
+        "txt": "Makeshop・たまごリピートを用いたECサイト制作（コーディング）に従事。"
+      }
+    ]
+  },
+  "skill": {
+    "title": "スキル",
+    "detail": [
+      {
+        "title": "独学",
+        "language": [
+          {
+            "name": "Vue.js",
+            "note": "2019/05/09 ～ now"
+          },
+          {
+            "name": "Node.js",
+            "note": "2019/05/01 ～ now"
+          },
+          {
+            "name": "JavaScript ES6",
+            "note": "2019/04/26 ～ 2019/05/01"
+          },
+          {
+            "name": "開眼！Javascript（O'Reilly Japan）",
+            "note": "2019/04/14 ～ 2019/05/26"
+          },
+          {
+            "name": "Git",
+            "note": "2019/04/03 ～ 2019/04/14"
+          }
+        ]
+      },
+      {
+        "title": "業務使用・その他",
+        "language": [
+          {
+            "name": "HTML（HTML5）",
+            "note": "コーディングにて使用"
+          },
+          {
+            "name": "CSS（CSS3）",
+            "note": "コーディング・アニメーション実装にて使用"
+          },
+          {
+            "name": "JavaScript（jQuery）",
+            "note": "プラグイン改良ほか、簡易な動作実装に使用"
+          },
+          {
+            "name": "PHP",
+            "note": "既存プログラムの修正、簡易な動作実装に使用"
+          },
+          {
+            "name": "Flash",
+            "note": "簡単なAction Scriptの実装などを行いました"
+          }
+        ]
+      }
+    ]
+  },
+  "tool": {
+    "title": "ツール",
+    "list": [
+      "Photoshop",
+      "Illustrator",
+      "Dreamweaver",
+      "Subline Text",
+      "VScode",
+      "Sourcetree",
+      "Fireworks"
+    ]
+  }
+}
