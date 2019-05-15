@@ -569,13 +569,13 @@ article.thanks .txt {
 }
 @font-face {
   font-family: NotoSerif;
-  src: url(/portfoli/static/fonts/NotoSerifCJKjp-Regular.0a5b0a2.woff)
+  src: url(/portfolio/static/fonts/NotoSerifCJKjp-Regular.0a5b0a2.woff)
     format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: NotoSerif;
-  src: url(/portfoli/static/fonts/NotoSerifCJKjp-Medium.4e1d4a9.woff)
+  src: url(/portfolio/static/fonts/NotoSerifCJKjp-Medium.4e1d4a9.woff)
     format('woff');
   font-weight: 700;
   font-style: bold;
