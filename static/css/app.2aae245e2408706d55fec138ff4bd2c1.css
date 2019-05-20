@@ -137,9 +137,10 @@ article.log .list dl {
   align-items: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  font-size: 16px;
 }
 article.log .list dl:not(:first-child) {
-  padding-top: 0.25em;
+  padding-top: 0.75em;
 }
 article.log .list dl dt {
   display: -ms-flexbox;
@@ -157,11 +158,36 @@ article.log .list dl dt:after {
   width: 0.5em;
   height: 1px;
 }
+article.log .list dl dd {
+  width: 100%;
+  line-height: 1.25;
+  padding-top: 0.25em;
+}
 article.whats .txt {
   margin: 0 auto;
   width: 620px;
   line-height: 1.75;
   text-align: center;
+}
+@media screen and (max-width: 640px) {
+  article.log .list {
+    width: 100%;
+  }
+  article.log .list dl dt {
+    font-size: 15px;
+  }
+  article.log .list dl dd {
+    font-size: 14px;
+    line-height: 1.25;
+  }
+  article.whats .txt {
+    width: 100%;
+    text-align: left;
+    line-height: 1.5;
+  }
+  article.whats .txt ul li {
+    margin: 0.5em 0;
+  }
 }
 article.person {
   border: 1px solid #090707;
@@ -177,6 +203,8 @@ article.person dl {
   justify-content: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 article.person dl:not(:first-child) {
   margin-top: 0.25em;
@@ -289,6 +317,70 @@ article.tool ul li:not(:last-child):after {
 article.tool ul li:nth-child(4):after {
   display: none;
 }
+@media screen and (max-width: 640px) {
+  article.person {
+    width: 100%;
+  }
+  article.person dl {
+    line-height: 1.2;
+  }
+  article.person dl:not(:first-child) {
+    margin: 0;
+  }
+  article.person dl:nth-child(2n) {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    background: #ededed;
+    position: relative;
+    left: -0.5em;
+  }
+  article.person dl dt {
+    width: auto;
+  }
+  article.career .list,
+  article.person dl dd {
+    width: 100%;
+  }
+  article.career .list dl {
+    line-height: 1.25;
+  }
+  article.career .list dl dt {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  article.career .list dl dt small {
+    font-size: 14px;
+  }
+  article.career .list dl dt h3 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  article.career .list dl dd {
+    font-size: 15px;
+  }
+  article.skill section {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  article.skill section .list {
+    width: 100%;
+  }
+  article.skill section .list + .list {
+    margin-top: 25px;
+  }
+  article.skill section .list dl dt {
+    margin-bottom: 0.25em;
+  }
+  article.tool ul.list {
+    width: 100%;
+  }
+  article.tool ul li:nth-child(4):after {
+    display: inline;
+  }
+}
 article.list {
   width: 620px;
   margin: 0 auto;
@@ -331,6 +423,7 @@ article.list section p.icon img {
   -o-object-fit: contain;
   object-fit: contain;
   width: 100%;
+  height: 100%;
 }
 article.list section .titleBg {
   min-height: 38px;
@@ -408,6 +501,9 @@ article.list section .role li:not(:last-child):after {
 article.worksDetail h2 {
   font-size: 22px;
 }
+article.worksDetail h2.sp {
+  display: none;
+}
 article.worksDetail p.img {
   margin: 0 auto;
   border: 1px solid #090707;
@@ -469,6 +565,89 @@ article.worksDetail p.btn a {
   background: #30a9de;
   margin: 0 auto;
   text-decoration: none;
+}
+@media screen and (max-width: 640px) {
+  article.list {
+    width: 100%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  article.list section:not(:nth-child(3n + 1)) {
+    margin-left: 0;
+  }
+  article.list section:nth-child(n + 4) {
+    margin-top: 0;
+  }
+  article.list section:nth-child(n + 3) {
+    margin-top: 25px;
+  }
+  article.list section {
+    width: 48.5%;
+  }
+  article.list section p.title {
+    font-size: 14px;
+    letter-spacing: -0.75px;
+  }
+  article.list section p.icon {
+    width: 100%;
+  }
+  article.list section .role {
+    margin: 0.75em 0 0;
+  }
+  article.worksDetail h2:not([class]) {
+    display: none;
+  }
+  article.worksDetail h2.sp {
+    display: block;
+    font-size: 19px;
+    line-height: 1.25;
+  }
+  article.worksDetail p.img {
+    width: 100%;
+    height: auto;
+  }
+  article.worksDetail ul.list {
+    margin: 0.75em 0 0;
+  }
+  article.worksDetail ul.list li {
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 0.5em;
+  }
+  article.worksDetail ul.list li + li {
+    margin-left: 0.5em;
+  }
+  article.worksDetail p.txt {
+    font-size: 14px;
+  }
+  article.worksDetail p.url {
+    font-size: 14px;
+    padding: 0.5em 0 0.75em;
+  }
+  article.worksDetail p.url a {
+    display: block;
+    line-height: 1.25;
+  }
+}
+@media screen and (max-width: 430px) {
+  article.list section {
+    width: 100%;
+  }
+  article.list section:not(:first-child) {
+    margin-top: 25px;
+  }
+  article.list section p.title {
+    font-size: 14.5px;
+    letter-spacing: 0;
+  }
+  article.list section .titleBg {
+    min-height: inherit;
+    padding: 0.75em 0 1em;
+  }
+  article.list section p.note {
+    min-height: inherit;
+  }
 }
 article.form {
   text-align: center;
@@ -567,6 +746,64 @@ article.thanks .txt {
   line-height: 1.75;
   text-align: center;
 }
+@media screen and (max-width: 640px) {
+  article.form form {
+    width: 100%;
+  }
+  article.form form dl {
+    display: block;
+  }
+  article.form form dl:not(:first-of-type) {
+    margin-top: 0.75em;
+  }
+  article.form form dl dt {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    padding-right: 0;
+    position: relative;
+  }
+  article.form form dl dt i {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    height: 1em;
+    font-size: 13px;
+  }
+  article.form form dl dt:after {
+    display: none;
+  }
+  article.form form dl dd input,
+  article.form form dl dd textarea {
+    width: 100%;
+  }
+  form .btn {
+    margin: 40px 0 0;
+  }
+  form .btn button {
+    font-size: 20px;
+    height: 40px;
+  }
+  main article.detail {
+    margin-top: 50px;
+  }
+  article.detail .txt {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  article.detail .txt small {
+    font-size: 14px;
+  }
+  article.thanks .txt {
+    width: 100%;
+    text-align: left;
+    line-height: 1.5;
+  }
+}
 @font-face {
   font-family: NotoSerif;
   src: url(/portfolio/static/fonts/NotoSerifCJKjp-Regular.0a5b0a2.woff)
@@ -587,6 +824,7 @@ body {
     \\30d2\30e9\30ae\30ce\660e\671d ProN W3, Hiragino Mincho ProN,
     'HG\660E\671D  E', '\FF2D\FF33   \FF30\660E\671D', '\FF2D\FF33   \660E\671D',
     serif;
+  -webkit-text-size-adjust: 100%;
   color: #090707;
 }
 a {
@@ -723,4 +961,32 @@ article.sorry .txt {
   text-align: center;
   line-height: 1.5;
 }
-/*# sourceMappingURL=app.4c1e442a21e47e96089da4b6fd87e0ae.css.map */
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+  header:after {
+    height: 7px;
+    bottom: -7px;
+  }
+  header nav {
+    width: 100%;
+  }
+  header nav ul li {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  main {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  main h1 span {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  main h2 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=app.2aae245e2408706d55fec138ff4bd2c1.css.map */
