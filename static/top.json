@@ -3,6 +3,10 @@
     "title": "更新履歴",
     "log": [
       {
+        "date": "2019/05/24",
+        "matter": "表示に関して微修正を行いました。"
+      },
+      {
         "date": "2019/05/20",
         "matter": "CSSの修正にてスマホ対応を行いました。"
       },
@@ -18,6 +22,6 @@
   },
   "whats": {
     "title": "このポートフォリオについて",
-    "txt": "2019/05/9より独学にて学習を始めたVue.jsを利用し制作しております。<ul><li><a href='https://www.udemy.com/learn-vuejs/' target='_blank'>Vue JS入門決定版！jQueryを使わないWeb開発（Udemy）</a></li><li><a href='https://becolomochi.booth.pm/items/667217' target='_blank'>Vue.jsでポートフォリオサイト制作記（BOOTH）</a></li></ul>ほか、Qiitaの記事などを参考にしております。"
+    "txt": "2019/05/09より独学にて学習を始めたVue.jsを利用し制作しております。<ul><li><a href='https://www.udemy.com/learn-vuejs/' target='_blank'>Vue JS入門決定版！jQueryを使わないWeb開発（Udemy）</a></li><li><a href='https://becolomochi.booth.pm/items/667217' target='_blank'>Vue.jsでポートフォリオサイト制作記（BOOTH）</a></li></ul>ほか、Qiitaの記事などを参考にしております。"
   }
 }

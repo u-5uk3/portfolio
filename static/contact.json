@@ -1,6 +1,6 @@
 {
   "detail": {
-    "txt": "上記のフォームはjQueryとGoogle Apps Scriptを用い、<br><a href='https://docs.google.com/spreadsheets/d/1u6tHwq-EiCpnpQkMPT_JH-TbYEYXrTppk9JXq_fbSpY/edit#gid=0' target='_blank'>スプレッドシート</a>へ送信内容が蓄積されるよう連携させています。<br>入力内容のバリデーションは現在未実装です。",
+    "txt": "上記のフォームはjQueryとGoogle Apps Scriptを用い、<br class='pcOnly'><a href='https://docs.google.com/spreadsheets/d/1u6tHwq-EiCpnpQkMPT_JH-TbYEYXrTppk9JXq_fbSpY/edit#gid=0' target='_blank'>スプレッドシート</a>へ送信内容が蓄積されるよう連携させています。<br>入力内容のバリデーションは現在未実装です。",
     "note": "参考：<br><a href='https://qiita.com/snowsunny/items/56a85c63598dcfb1b06e' target='_blank'>【短いコードで色々出来る】Google Apps Scriptでスプレッドシートと連携した<br>無料Ajaxフォームの作り方※サンプル付き【自動返信メールもあるよ】（Qiita）</a>"
   },
   "thanks": {
