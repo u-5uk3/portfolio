@@ -35,6 +35,10 @@
         "title": "独学",
         "language": [
           {
+            "name": "Sass",
+            "note": "2019/05/24 ～ now"
+          },
+          {
             "name": "Vue.js",
             "note": "2019/05/09 ～ now"
           },
