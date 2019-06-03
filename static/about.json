@@ -35,12 +35,16 @@
         "title": "独学",
         "language": [
           {
+            "name": "React・Redux",
+            "note": "2019/06/03 ～ now"
+          },
+          {
             "name": "Vue.js",
-            "note": "2019/05/09 ～ now"
+            "note": "<a href='https://www.udemy.com/learn-vuejs/' target='_blank'>Udemy講座</a>を修了 [2019/06]"
           },
           {
             "name": "Node.js",
-            "note": "<a href='https://www.udemy.com/nodejs-part1/' target='_blank'>Udemy講座</a>を修了、別講座継続中 [2019/05]"
+            "note": "<a href='https://www.udemy.com/nodejs-part1/' target='_blank'>Udemy講座</a>を修了(別講座継続中) [2019/05]"
           },
           {
             "name": "Sass",
